@@ -1,6 +1,6 @@
 /* column */
 
-container {
+#gridContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -19,8 +19,8 @@ container {
 /* individual boxes */
 
 .rowBox {
-    height: auto;
-    width: auto;
+    height: 50px;
+    width: 50px;
     border: 2px solid black;
     border-radius: 5px;
 }
