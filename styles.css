@@ -1,3 +1,23 @@
+/* column */
+container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* rows */
+
 .gridRows {
-    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* individual boxes */
+
+.rowBox {
+    height: auto;
+    width: auto;
+
 }

@@ -8,7 +8,7 @@ for (let i = 1; i < 5; i++) {
     document.container.appendChild(row);
     for (let x = 1; x <5; x++) {
         let box = document.createElement('div')
-        box.class = `row${i}`
+        box.class = `rowBox`;
         document.row.appendChild(box);
     }
 }
