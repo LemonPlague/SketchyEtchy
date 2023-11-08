@@ -1,4 +1,5 @@
 /* column */
+
 container {
     display: flex;
     flex-direction: column;
@@ -19,5 +20,6 @@ container {
 .rowBox {
     height: auto;
     width: auto;
-
+    border: 2px solid black;
+    border-radius: 5px;
 }
