@@ -1,5 +1,6 @@
 //------------------------grid------------------------
 const container = document.querySelector('#gridContainer');
+const button = document.getElementById('cellCount');
 
 for (let i = 1; i < 5; i++) {
     let row = document.createElement('div');
@@ -13,7 +14,7 @@ for (let i = 1; i < 5; i++) {
     }
 }
 
-//--------div color changing stuff-------------
+//--------div color changing stuff-----------------
 const divs = document.querySelectorAll('.rowBox');
 
 divs.forEach((div) => div.addEventListener("mouseenter", (event) => {
