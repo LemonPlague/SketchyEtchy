@@ -12,3 +12,16 @@ for (let i = 1; i < 5; i++) {
         row.appendChild(box);
     }
 }
+
+//--------div color changing stuff-------------
+const divs = document.querySelectorAll('.rowBox');
+
+divs.forEach((div) => div.addEventListener("mouseenter", (event) => {
+    //change div color when hovering over
+    event.target.style.backgroundColor = "red";
+}));
+
+//change color back when leaving
+//divs.forEach((div) => div.addEventListener("mouseleave", (event) => {
+//    event.target.style.backgroundColor = "";
+//}));

@@ -19,8 +19,8 @@
 /* individual boxes */
 
 .rowBox {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     border: 2px solid black;
     border-radius: 5px;
 }
