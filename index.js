@@ -3,6 +3,7 @@ const container = document.querySelector('#gridContainer');
 const button = document.getElementById('cellCount');
 let userInput = 4;
 
+//set the page with a default 4x4 grid
 SetPage();
 
 function SetPage() {
