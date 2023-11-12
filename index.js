@@ -18,7 +18,7 @@ function SetPage() {
             row.appendChild(box);
         }
     }
-    //--------div color changing stuff-----------------
+    //--------div color changing logic-----------------
     const divs = document.querySelectorAll('.rowBox');
 
     divs.forEach((div) => div.addEventListener("mouseenter", (event) => {
